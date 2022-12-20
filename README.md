@@ -1,7 +1,7 @@
 # Programmatic Podcast Downloader & Transcriber
 Ever feel like you spend as much time searching for podcasts as you do listening to them? Well put that in the past because this repo allows you to programmatically search through & download podcast episodes you'll find interesting with the simple click of button.
 
-![Python program downloading & transcribing Lex Fridman podcasts. You see the name of each file as it is being downloaded/transcribed in a linux terminal](./resources/podcast_downloader.gif)
+![Python program downloading & transcribing Lex Fridman podcasts. You see the name of each file as it is being downloaded/transcribed in a linux terminal](./resources/kedr.gif)
 
 ## Setup
 
