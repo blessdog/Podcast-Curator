@@ -10,9 +10,8 @@ To access all of the files I recommend you fork this repo and then clone it loca
 You will also need to make sure that you have all of the required Python libraries. You can do that by running a 
 ```pip install -r path/to/requirements.txt```
 
-Now that you have the files & libraries locally, you will want to specify which Podcasts to run. Go into the [download_podcasts.py](https://github.com/KeithGalli/Podcast-Downloader/blob/master/download_podcasts.py) & [transcriptions.py](https://github.com/KeithGalli/Podcast-Downloader/blob/master/transcriptions.py) and edit the ```podcast_list``` located at the bottom of each file. 
+Now that you have the files & libraries locally, you will want to specify which Podcasts to run. Go into the [download_podcasts.py](https://github.com/blessdog/Podcast-Curator/blob/main/podcast.py) & [transcriptions.py](https://github.com/blessdog/Podcast-Curator/blob/main/transcriptions.py)) and edit the ```podcast_list``` located at the bottom of each file. 
 
-You need to insert Podcast objects for each podcast that you want to programmatically scrape with Python. The first argument is the name of the podcast, the second argument is the URL for the podcast's RSS feed. If you don't know how to find this URL, I recommend checking out [this youtube video](https://youtu.be/UmGOeHEsSx8). You can add as many podcasts as you want.
 
 Next you should set how many podcast episodes you want to download from each podcast by modifying the ```limit``` variable. You can also modify the search term to filter which types of episodes you download. In this example it is 'robot'. If you don't want a search term, uncomment the line that says get_items and comment the line that says search_items. See the image below for reference
 ![alt text](./resources/code_sample.png)
