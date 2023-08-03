@@ -5,7 +5,7 @@ Ever feel like you spend as much time searching for podcasts as you do listening
 
 ## Setup
 
-To access all of the files I recommend you fork this repo and then clone it locally. Instructions on how to do this can be found here: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
+To access all of the files I recommend you fork this repo and then clone it locally. 
 
 You will also need to make sure that you have all of the required Python libraries. You can do that by running a 
 ```pip install -r path/to/requirements.txt```
