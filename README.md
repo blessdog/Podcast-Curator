@@ -16,4 +16,4 @@ Now that you have the files & libraries locally, you will want to specify which 
 Next you should set how many podcast episodes you want to download from each podcast by modifying the ```limit``` variable. You can also modify the search term to filter which types of episodes you download. In this example it is 'robot'. If you don't want a search term, uncomment the line that says get_items and comment the line that says search_items. See the image below for reference
 ![alt text](./resources/code_sample.png)
 
-After you are done with these components, you can run the bash script 'run_all.sh' to download & transcribe your podcasts. Have fun!
+After you are done with these components, you can run the bash script ```run_all.sh``` to download & transcribe your podcasts. Have fun!
